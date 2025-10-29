@@ -1,0 +1,42 @@
+alias ll='ls -alF --color=auto'
+alias la='ls -A'
+alias l='ls -CF'
+alias lt='ls --human-readable --size -l -S --classify'
+alias left='ls -t -1'
+alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | egrep ^/dev/ | sort"
+alias gh='history|grep'
+alias cpv='rsync -ah --info=progress2'
+alias df='df -h -x squashfs -x tmpfs -x devtmpsfs'
+alias extip='curl icanhazip.com'
+alias i='sudo apt install'
+alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -'
+alias mem5='ps auxf | sort -nr -k 4 | head -5'
+alias cpu5='ps auxf | sort -nr -k 3 | head -5'
+alias ssha='eval $(ssh-agent) && ssh-add'
+
+## ssh to linux.jenningsnet.net
+alias debian3='ssh frank@jenningsdebian3.jennings.pri'
+alias pi-nas='ssh frank@pi-nas.jennings.pri'
+alias arch='ssh frank@archserver.jennings.pri'
+alias pve1='ssh root@192.168.70.41'
+alias pve2='ssh root@192.168.70.42'
+alias pve3='ssh root@192.168.70.43'
+alias racknerd='ssh frank@172.25.11.166'
+
+## Colorize the grep command output for ease of use (good for log files)##
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+alias ports='netstat -tulanp'
+
+# update on one command
+alias update='sudo apt-get update && sudo apt-get dist-upgrade'
+
+# reboot / halt / poweroff
+alias reboot='sudo /sbin/reboot'
+alias poweroff='sudo /sbin/poweroff'
+alias halt='sudo /sbin/halt'
+alias shutdown='sudo /sbin/shutdown'
+
+alias data="sudo mount -t drvfs '\\\\jenningsdata\\data' /media/data"

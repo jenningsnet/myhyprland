@@ -1,1 +1,1 @@
-stow -d ~/projects/myhyprland/ -t ~/ dotfiles
+stow -d ~/projects/myhyprland/ -t ~/ dotfiles 
