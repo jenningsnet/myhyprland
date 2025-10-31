@@ -18,9 +18,10 @@
     ],
     "modules-right": [
         "pulseaudio",
-        "cpu",
+        "network",
         "battery",
         "clock",
+        "tray",
         "custom/power"
     ],
     // Modules configuration
