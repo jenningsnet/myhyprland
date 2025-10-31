@@ -1,0 +1,5 @@
+code dolphin firefox git hyprpaper hyprpicker kitty libpulse nano network-manager-applet networkmanager openssh otf-font-awesome 7.1.0-1
+pavucontrol pipewire rofi-wayland sddm slurp stow swayidle swaylock-effects unzip vim waybar wget wireless_tools wlogout
+wofi zsh
+
+yay thorium-browser
