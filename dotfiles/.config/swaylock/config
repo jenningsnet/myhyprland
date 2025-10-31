@@ -1,0 +1,26 @@
+ignore-empty-password
+
+clock
+timestr=%R
+datestr=%a, %D
+
+color=#000000
+image=~/.config/hypr/wallpapers/Fantasy-Landscape3.png
+scaling=fill
+
+fade-in=1
+effect-blur=20x6
+effect-greyscale
+
+font=FiraCode Nerd Font
+font-size=40
+indicator
+indicator-radius=100
+
+inside-color=#444444
+ring-color=#ffffff
+separator-color=#ffffff
+text-color=#ffffff
+
+
+
