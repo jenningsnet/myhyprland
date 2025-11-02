@@ -114,7 +114,7 @@ button:hover {
 
 #window,
 #workspaces {
-    margin: 0 4px;
+    margin: 0 2px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -200,7 +200,7 @@ label:focus {
 }
 
 #network {
-    background-color: #2980b9;
+    background-color: #0D3549;
 }
 
 #network.disconnected {
@@ -249,7 +249,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    background-color: #0D3549;
 }
 
 #tray > .passive {
@@ -338,4 +338,18 @@ label:focus {
 
 #privacy-item.audio-out {
     background-color: #0069d4;
+}
+
+#taskbar {
+    padding: 0 5px;
+    background-color: #0D3549;
+    border-radius: 15px;
+    border: 1px solid #FFFFFF;
+}
+
+#taskbar button {
+    background-color: #0D3549;
+    border-radius: 3px;
+    padding: 5px 5px;
+    
 }
