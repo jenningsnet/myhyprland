@@ -1,5 +1,5 @@
 code dolphin firefox git hyprpaper hyprpicker hypridle hyprlock kitty libpulse nano network-manager-applet networkmanager openssh otf-font-awesome
 pavucontrol pipewire rofi-wayland sddm slurp stow swayidle swaylock-effects unzip vim waybar wget wireless_tools wlogout
-wofi zsh ttf-firacode-nerd python-pywal
+wofi zsh ttf-firacode-nerd python-pywal swww nwg-look nautilus
 
 yay thorium-browser
