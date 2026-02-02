@@ -127,7 +127,7 @@
     "custom/power": {
         "format" : "⏻ ",
 		"tooltip": false,
-        "on-click": "wlogout"
+        "on-click": "wlogout --protocol layer-shell -b 4"
     
     }
 }
